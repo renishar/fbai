@@ -1,0 +1,139 @@
+.fbai_loader {
+	height: 60px;
+	width: 200;
+	border: 1px solid #7F7F7F;
+}
+
+.fbai_container {
+	font-size: 12pt;
+	padding: 6px;
+	width: 100%;
+	float:left;
+}
+
+.fbai_album {
+	float: left;
+	display: block;
+	cursor: pointer;
+	margin: 0;
+	color: #ac1e2f;
+	text-align:center;
+	//border: 1px solid red;
+	font-family: "Tahoma, Geneva, sans-serif";
+	width: 190px;
+	height: 250px;
+}
+
+.fbai_photo {
+	float: left;
+	display: block;
+	cursor: pointer;
+	margin: 0;
+	color: #ac1e2f;
+	text-align:center;
+	//border: 1px solid red;
+	font-family: "Tahoma, Geneva, sans-serif";
+	width: 190px;
+	height: 250px;
+}
+
+.fbai_album_backlink {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.fbai_album .photo {
+	border: 1px solid #7F7F7F;
+	width: 180px;
+	height: 160px;
+	radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-o-border-radius: 9px;
+	opacity: 1;
+	background-size: 100% 100%!important;
+	background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.fbai_album .photo:hover {
+	opacity: 0.8;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.fbai_photo img {
+	border: 1px solid #7F7F7F;
+	width: 180px;
+	height: 160px;
+	radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-o-border-radius: 9px;
+	opacity: 1;
+	background-size: 100% 100%!important;
+	background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.fbai_photo img:hover {
+	opacity: 0.8;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.fbai_album span {
+	padding:3px;
+	text-shadow: 1px 1px 5px #fff;
+}
+
+.fbai_album h3 {
+	color: #000;
+	font-size: 15px;
+	padding: 0px 5px;
+}
+
+.fbai_album p {
+	text-align: left;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 8pt;
+	background-color: #7F7F7F;
+	padding: 5px;
+}
+
+
+
+.fbai_album a {
+	text-decoration: none;
+	color: #000;
+}
+
+.fbai_album a:hover {
+	text-decoration: none;
+}
+
+.fbai_back_btn
+{
+	text-align: center;
+}
+
+.loader {
+	text-align: center;
+    margin: auto;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
